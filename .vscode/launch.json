@@ -5,11 +5,12 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "DEBUG",
+			"name": "DEBUG_PROGRAM",
 			"type": "cppdbg",
-			"preLaunchTask": "make_program",
+			"preLaunchTask": "DEBUG",
 			"request": "launch",
-			"program": "${fileDirname}/program",
+			"program": "${fileDirname}/PROGRAM",
+				//"args": [""]
 			"stopAtEntry": false,
 			"cwd": "${fileDirname}",
 			"environment": [],
