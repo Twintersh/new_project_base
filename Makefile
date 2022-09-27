@@ -1,5 +1,5 @@
 CC = gcc
-NAME = test
+NAME = #insert
 SRC = $(wildcard src/*.c)
 OBJ=$(SRC:.c=.o)
 LFT = lib-twinters
